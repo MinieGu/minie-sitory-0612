@@ -48,15 +48,6 @@
 <a href="http://www.naver.com">naver</a>
 ```
 
-### HTML Fundamental Elements
-
-> header tag(제목 태그)
-> > heading -> h
-> > 
-> > h1 ~ h6
-> > 
-> > h1이 가장 큰 제목
-
 ### Anatomy of an HTML document
 
 ```
@@ -83,3 +74,25 @@
 5- 웹 문서의 제목을 표시하는 요소
 
 6- 웹 문서의 콘텐츠 요소들이 담기는 영역 요소
+
+
+### HTML Fundamental Elements
+
+> header tag(제목 태그)
+> > heading -> h
+> > 
+> > h1 ~ h6
+> > 
+> > h1이 가장 큰 제목
+> > 
+> 단락 태그
+> > 단락을 표시
+> > 
+> > 단락과 단락사이를 구분하는 수평선
+```
+<hr> -* Horizontal Rule
+```
+> > 단락을 구분하지 않고 줄 바꿈
+```
+<br> -* Break
+```

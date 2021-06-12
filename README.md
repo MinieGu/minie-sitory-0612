@@ -56,4 +56,21 @@
 > > h1 ~ h6
 > > 
 > > h1이 가장 큰 제목
-> > 
+
+### Anatomy of an HTML document
+
+```
+<!DOCTYPE html>                   - 1
+<html>                            - 2
+  <head>                          - 3
+    <meta charset="utf-8">        - 4
+    <title>My test page</title>   - 5
+  </head>
+  <body>                          - 6
+    <p>This is my page</p>
+  </body>
+</html>
+```
+
+1- 웹 문서의 버젼 : HTML5
+2- 

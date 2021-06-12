@@ -97,17 +97,17 @@
 ```
 
 > #### paragraph tag(단락 태그)
-> p(Paragraph): 단락
-> 
-> 단락을 표시
+> > p(Paragraph): 단락
+> >
+> > 단락을 표시
 ```
 <p>콘텐츠</p>
 ```
-> > 단락과 단락사이를 구분하는 수평선
+> > > 단락과 단락사이를 구분하는 수평선
 ```
 <hr> -* Horizontal Rule
 ```
-> > 단락을 구분하지 않고 줄 바꿈
+> > > 단락을 구분하지 않고 줄 바꿈
 ```
 <br> -* Break
 ```
@@ -140,8 +140,8 @@
 ```
 > ***
 > * advanced text formatting
-  - 있다는 것만 알기
-  - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
+>  - 있다는 것만 알기
+>  - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
 > ***
 
 > #### Hyperlink

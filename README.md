@@ -144,3 +144,5 @@
 > > link: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting
 
 #### Hyperlink
+> url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
+> IP(Internet Protocol) Addresss: 숫자로 된 주소

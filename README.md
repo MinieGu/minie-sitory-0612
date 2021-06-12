@@ -146,5 +146,6 @@
 
 #### Hyperlink
 > url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
-> IP(Internet Protocol) Addresss: 숫자로 된 주소
-> 도메인 주소 ex)www.naver.com
+> > IP(Internet Protocol) Addresss: 숫자로 된 주소
+> > 도메인 주소 ex)www.naver.com
+> Hyperlink: url을 사용하여 다른 페이지로 연결

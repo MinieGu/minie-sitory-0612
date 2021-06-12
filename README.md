@@ -79,20 +79,34 @@
 ### HTML Fundamental Elements
 
 > header tag(제목 태그)
-> > heading -> h
-> > 
+> > h(Heading)
+> >
 > > h1 ~ h6
 > > 
+> > 제목 기준 분류를 표시
+
+```
+<h1>Head 1</h1>
+<h2>Head 2</h2>
+<h3>Head 3</h3>
+<h4>Head 4</h4>
+<h5>Head 5</h5>
+<h6>Head 6</h6>
+```
 > > h1이 가장 큰 제목
 > > 
-> 단락 태그
-> > 단락을 표시
+> paragraph tag(단락 태그)
+> > p(Paragraph): 단락
 > > 
-> > 단락과 단락사이를 구분하는 수평선
+> > 단락을 표시
+```
+<p>콘텐츠</p>
+```
+> > > 단락과 단락사이를 구분하는 수평선
 ```
 <hr> -* Horizontal Rule
 ```
-> > 단락을 구분하지 않고 줄 바꿈
+> > > 단락을 구분하지 않고 줄 바꿈
 ```
 <br> -* Break
 ```

@@ -13,7 +13,7 @@
 > Elements : 요소 -의미적
 > 
 > tag : 태그 - 기술적
-
+> 
 > 문법(Syntax)
 > > <>로 감싸줌
 > > 
@@ -79,6 +79,7 @@
 ### HTML Fundamental Elements
 
 > #### header tag(제목 태그)
+> 
 > > h(Heading)
 > >
 > > h1 ~ h6
@@ -97,6 +98,7 @@
 ```
 
 > #### paragraph tag(단락 태그)
+> 
 > > p(Paragraph): 단락
 > >
 > > 단락을 표시
@@ -113,6 +115,7 @@
 ```
 
 > #### list tag(리스트 태그)
+> 
 > > li(List Item): 목록 항목
 > > 
 > > ol(Ordered List): 순서가 있는 리스트
@@ -140,11 +143,13 @@
 ```
 > ***
 > * advanced text formatting
+> 
 >  - 있다는 것만 알기
 >  - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
 > ***
 
 > #### Hyperlink
+> 
 > > url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
 > > > IP(Internet Protocol) Addresss: 숫자로 된 주소
 > > > 도메인 주소 ex)www.naver.com

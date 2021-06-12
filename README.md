@@ -107,11 +107,11 @@
 ```
 > > > 단락과 단락사이를 구분하는 수평선
 ```
-<hr> -* Horizontal Rule
+<hr>              - Horizontal Rule
 ```
 > > > 단락을 구분하지 않고 줄 바꿈
 ```
-<br> -* Break
+<br>              - Break
 ```
 
 > #### list tag(리스트 태그)

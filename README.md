@@ -138,11 +138,13 @@
 </dl>
 
 ```
-
-##### advanced text formatting
+***
+* advanced text formatting
 > 있다는 것만..
-> > link: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting
+> > 모질라 link: <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting>
+***
 
 #### Hyperlink
 > url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
 > IP(Internet Protocol) Addresss: 숫자로 된 주소
+> 도메인 주소 ex)www.naver.com

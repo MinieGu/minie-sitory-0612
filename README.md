@@ -34,4 +34,16 @@
   </div>
 </body>
 ```
-> >
+
+
+### HTML Attribute
+
+> Attribute : 자질, 속성
+> 
+> HTML 요소의 부가 정보
+> 
+> 문법
+> > 속성이름 = "속성값"
+```
+<a href="http://www.naver.com">naver</a>
+```

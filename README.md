@@ -29,5 +29,5 @@
   <div>
     text
   </div>
-<body>
+</body>
 ```

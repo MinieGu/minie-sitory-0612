@@ -78,14 +78,14 @@
 
 ### HTML Fundamental Elements
 
-#### header tag(제목 태그)
-> h(Heading)
->
-> h1 ~ h6
-> 
-> 제목 기준 분류를 표시
-> 
-> h1이 가장 큰 제목
+> #### header tag(제목 태그)
+> > h(Heading)
+> >
+> > h1 ~ h6
+> > 
+> > 제목 기준 분류를 표시
+> > 
+> > h1이 가장 큰 제목
 
 ```
 <h1>Head 1</h1>
@@ -96,7 +96,7 @@
 <h6>Head 6</h6>
 ```
 
-#### paragraph tag(단락 태그)
+> #### paragraph tag(단락 태그)
 > p(Paragraph): 단락
 > 
 > 단락을 표시
@@ -112,12 +112,12 @@
 <br> -* Break
 ```
 
-#### list tag(리스트 태그)
-> li(List Item): 목록 항목
-> 
-> ol(Ordered List): 순서가 있는 리스트
-> 
-> ul(Unordered List): 순서가 없는 리스트
+> #### list tag(리스트 태그)
+> > li(List Item): 목록 항목
+> > 
+> > ol(Ordered List): 순서가 있는 리스트
+> > 
+> > ul(Unordered List): 순서가 없는 리스트
 ```
 <ul>
   <li>HTML</li>
@@ -129,7 +129,7 @@
   <li>CSS</li>
 </ol>
 ```
-> dl(Description List): 설명 목록
+> > dl(Description List): 설명 목록
 
 ```
 <dl>
@@ -138,14 +138,14 @@
 </dl>
 
 ```
-***
-* advanced text formatting
+> ***
+> * advanced text formatting
   - 있다는 것만 알기
   - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
-***
+> ***
 
-#### Hyperlink
-> url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
-> > IP(Internet Protocol) Addresss: 숫자로 된 주소
-> > 도메인 주소 ex)www.naver.com
-> Hyperlink: url을 사용하여 다른 페이지로 연결
+> #### Hyperlink
+> > url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
+> > > IP(Internet Protocol) Addresss: 숫자로 된 주소
+> > > 도메인 주소 ex)www.naver.com
+> > Hyperlink: url을 사용하여 다른 페이지로 연결

@@ -113,8 +113,29 @@
 ```
 
 #### list tag(리스트 태그)
-> list(list): 리스트
+> li(List Item): 목록 항목
 > 
-> ol(Ordered list): 순서가 있는 리스트
+> ol(Ordered List): 순서가 있는 리스트
 > 
-> ul(Unordered list): 순서가 없는 리스트
+> ul(Unordered List): 순서가 없는 리스트
+```
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+</ol>
+```
+> dl(Description List): 설명 목록
+
+```
+<dl>
+  <dt>HTML</dt>              - (dt: Description Title)
+  <dd>표준 마크업 언어</dd>   - (dd: Description Data)
+</dl>
+
+```
+

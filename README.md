@@ -111,3 +111,10 @@
 ```
 <br> -* Break
 ```
+
+#### list tag(리스트 태그)
+> list(list): 리스트
+> 
+> ol(Ordered list): 순서가 있는 리스트
+> 
+> ul(Unordered list): 순서가 없는 리스트

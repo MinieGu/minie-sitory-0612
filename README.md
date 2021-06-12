@@ -155,8 +155,10 @@
 > > > 도메인 주소 ex)www.naver.com
 > > Hyperlink: url을 사용하여 다른 페이지로 연결
 > > a(anchor): hyperlink. 해당 url로 닻을 놓음
-> > 속성(attribute): href(Hypertext Reference)와 함께 사용해야한다.
-
+> > 속성(attribute): href(Hypertext Reference)와 함께 사용해야한다. 연결되는 웹 문서의 url
+```
+<a href="http://www.naver.com">네이버로 이동</a>
+```
 
 
 

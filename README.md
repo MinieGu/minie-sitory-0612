@@ -133,6 +133,33 @@
   <li>CSS</li>
 </ol>
 ```
+> > 포함관계(nested)로 구성된 목록
+> > 코딩 할때 밖에서 안쪽 방향 순서로!
+> > > - html
+> > >   - html4
+> > >   - html5
+> > > - css
+> > >   - css2
+> > >   - css3
+```
+<ul>
+  <li>
+  HTML
+    <ul>
+      <li>HTML4</li>
+      <li>HTML5</li>
+    </ul>
+  </li>
+  <li>
+  CSS
+    <ul>
+      <li>CSS2</li>
+      <li>CSS3</li>
+    </ul>
+  </li>
+</ul>
+```
+
 > > dl(Description List): 설명 목록
 
 ```

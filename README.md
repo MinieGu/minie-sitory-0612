@@ -98,6 +98,7 @@
 <h6>Head 6</h6>
 ```
 
+
 #### paragraph tag(단락 태그)
 
 > p(Paragraph): 단락
@@ -114,6 +115,7 @@
 ```
 <br>              - Break
 ```
+
 
 #### list tag(리스트 태그)
 
@@ -175,6 +177,7 @@
 >   - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
 > ***
 
+
 #### Hyperlink
 
 > url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
@@ -200,6 +203,7 @@
 <a href="#t4"> 링크 </a>
 ```
 
+
 ### Table Element
 
 > 기본 사용 태그: table, thead, tbody, tr, th, td
@@ -211,5 +215,20 @@
 > 행: tr(table row)
 > 
 > 테이블 생성 어플리케이션 [link](https://www.tablesgenerator.com/)
+
+
+### Image Element
+
+> tag: img
+> 
+> Attribute
+> 
+> > src(source): 이미지 위치, 파일명
+> > 
+> > alt(alternate): 대체 텍스트(스크린 리더를 위해, 이미지 로딩 실패시 대체 수단으로)
+
+```
+<img src="image.jpg" alt="대체 텍스트">
+```
 
 > # to be continued...

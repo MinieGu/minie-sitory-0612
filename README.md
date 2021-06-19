@@ -247,9 +247,10 @@
 > > 
 > > loop: 반복 재생
 
-`<video autoplay muted loop>
+```
+<video autoplay muted loop>
   <source src ="url주소" type="video/mp4">
-</video>``
+</video>
 
 ```
 

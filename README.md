@@ -79,15 +79,15 @@
 
 ### HTML Fundamental Elements
 
-> #### header tag(제목 태그)
+#### header tag(제목 태그)
+
+> h(Heading)
+>
+> h1 ~ h6
 > 
-> > h(Heading)
-> >
-> > h1 ~ h6
-> > 
-> > 제목 기준 분류를 표시
-> > 
-> > h1이 가장 큰 제목
+> 제목 기준 분류를 표시
+> 
+> h1이 가장 큰 제목
 
 ```
 <h1>Head 1</h1>
@@ -98,30 +98,30 @@
 <h6>Head 6</h6>
 ```
 
-> #### paragraph tag(단락 태그)
-> 
-> > p(Paragraph): 단락
-> >
-> > 단락을 표시
+#### paragraph tag(단락 태그)
+
+> p(Paragraph): 단락
+>
+> 단락을 표시
 ```
 <p>콘텐츠</p>
 ```
-> > > 단락과 단락사이를 구분하는 수평선
+> > 단락과 단락사이를 구분하는 수평선
 ```
 <hr>              - Horizontal Rule
 ```
-> > > 단락을 구분하지 않고 줄 바꿈
+> > 단락을 구분하지 않고 줄 바꿈
 ```
 <br>              - Break
 ```
 
-> #### list tag(리스트 태그)
+#### list tag(리스트 태그)
+
+> li(List Item): 목록 항목
 > 
-> > li(List Item): 목록 항목
-> > 
-> > ol(Ordered List): 순서가 있는 리스트
-> > 
-> > ul(Unordered List): 순서가 없는 리스트
+> ol(Ordered List): 순서가 있는 리스트
+> 
+> ul(Unordered List): 순서가 없는 리스트
 ```
 <ul>
   <li>HTML</li>
@@ -133,14 +133,14 @@
   <li>CSS</li>
 </ol>
 ```
-> > 포함관계(nested)로 구성된 목록
-> > 코딩 할때 밖에서 안쪽 방향 순서로!
-> > > - html
-> > >   - html4
-> > >   - html5
-> > > - css
-> > >   - css2
-> > >   - css3
+> 포함관계(nested)로 구성된 목록
+> 코딩 할때 밖에서 안쪽 방향 순서로!
+> > - html
+> >   - html4
+> >   - html5
+> > - css
+> >   - css2
+> >   - css3
 ```
 <ul>
   <li>
@@ -160,7 +160,7 @@
 </ul>
 ```
 
-> > dl(Description List): 설명 목록
+> dl(Description List): 설명 목록
 
 ```
 <dl>
@@ -175,21 +175,29 @@
 >   - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
 > ***
 
-> #### Hyperlink
+#### Hyperlink
+
+> url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
 > 
-> > url(Uniform Resource Location): 웹에서 사용하는 주소(영문)
+> > IP(Internet Protocol) Addresss: 숫자로 된 주소
 > > 
-> > > IP(Internet Protocol) Addresss: 숫자로 된 주소
-> > > 
-> > > 도메인 주소 ex)www.naver.com
-> > > 
-> > Hyperlink: url을 사용하여 다른 페이지로 연결
+> > 도메인 주소 ex)www.naver.com
 > > 
-> > a(anchor): hyperlink. 해당 url로 닻을 놓음
-> > 
-> > 속성(attribute): href(Hypertext Reference)와 함께 사용해야한다. 연결되는 웹 문서의 url
+> Hyperlink: url을 사용하여 다른 페이지로 연결
+> 
+> a(anchor): hyperlink. 해당 url로 닻을 놓음
+> 
+> 속성(attribute): href(Hypertext Reference)와 함께 사용해야한다. 연결되는 웹 문서의 url
 ```
 <a href="http://www.naver.com">네이버로 이동</a>
+```
+> bookmarks
+> >외부페이지 연결이 아닌 같은 페이지에서 특정 위치로 이동할 수 있게 해주는 기능
+> >
+> >도착 지점에 id attribute를 사용하여 이름을 지정
+```
+<h2 id="t4"> 타이틀 4 </h2>
+<a href="#t4"> 링크 </a>
 ```
 
 

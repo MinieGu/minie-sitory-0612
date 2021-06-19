@@ -286,6 +286,21 @@
 
 > 카테고리 [link](https://codepen.io/MinieGu/pen/jOBJjgx)
 
+### 시멘틱 요소
+
+> 비 의미적 요소
+>
+> > div:
+> > 
+> > span:
+> 
+> 의미요소
+>
+> > <form>, <table>
+>
+> HTML5 이후로 구조를 표시하는 의미적 요소로 변경됨
+>
+> > <article> <aside> <details> <figcaption> <figure> <footer> <header> <main> <mark> <nav> <section> <summary> <time>
 
 
 

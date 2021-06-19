@@ -200,6 +200,16 @@
 <a href="#t4"> 링크 </a>
 ```
 
+### Table Element
 
+> 기본 사용 태그: table, thead, tbody, tr, th, td
+> 
+> 열 제목: thead(Table Head), th(table heading)
+> 
+> 표 내용: tbodya(Table Body), td(table data)
+> 
+> 행: tr(table row)
+> 
+> 테이블 생성 어플리케이션 [link](https://www.tablesgenerator.com/)
 
 > # to be continued...

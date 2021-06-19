@@ -281,7 +281,8 @@
 > 
 > 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입하는 형태. => 임베드(embed) 콘텐츠
 
-##HTML Content Model
+
+## HTML Content Model
 
 > 카테고리 [link](https://codepen.io/MinieGu/pen/jOBJjgx)
 

@@ -246,7 +246,12 @@
 > > muted: 음소거
 > > 
 > > loop: 반복 재생
-> > 
+
+`<video autoplay muted loop>
+  <source src ="url주소" type="video/mp4">
+</video>``
+
+```
 
 ### Youtube
 
@@ -265,6 +270,9 @@
 > > loop: 1, 0
 > > 
 > > 유의: src="" 내부에 넣어야 하며 autoplay와 mute / loop와 playlist는 같이 써야 활용 가능하다.
+```
+<iframe id="iframe1" src="https://www.youtube.com/embed/유튜브 동영상 id?controls=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=유튜브 동영상 id" frameborder="0" allowfullscreen "></iframe>
+```
 
 
 > 텍스트는 HTML 문서에 직접 입력되는 콘텐츠

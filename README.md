@@ -251,7 +251,6 @@
 <video autoplay muted loop>
   <source src ="url주소" type="video/mp4">
 </video>
-
 ```
 
 ### Youtube

@@ -231,4 +231,47 @@
 <img src="image.jpg" alt="대체 텍스트">
 ```
 
+### Video Element
+
+> 비디오 및 오디오 콘텐츠는 용량이 크기 때문에 서버에 저장을 해서 콘텐츠를 제공하면 많은 트래픽이 발생할 수 있음.
+> 
+> 트레픽 과부하를 해결하기 위해서 유튜브 서비스를 사용하기도 함
+> 
+> Attribute
+> 
+> > controls: 컨트롤 버튼 표시
+> > 
+> > autoplay: 자동재생(*muted와 같이 사용해야함)
+> > 
+> > muted: 음소거
+> > 
+> > loop: 반복 재생
+> > 
+
+### Youtube
+
+> 비디오 콘텐츠 제공시 서버의 트레픽 과부하를 해결할 수 있는 방법중의 하나
+> 
+> tip! 올릴때 일부 공개로 하면 페이지 방문자만 보기 가능. 유튜브 검색에 걸리지 않음
+> 
+> 유튜브 매개변수 [link](https://developers.google.com/youtube/player_parameters?hl=ko)
+> 
+> > controls: 1, 0
+> > 
+> > autoplay: 1, 0
+> > 
+> > mute: 1, 0
+> > 
+> > loop: 1, 0
+> > 
+> > 유의: src="" 내부에 넣어야 하며 autoplay와 mute / loop와 playlist는 같이 써야 활용 가능하다.
+
+
+> 텍스트는 HTML 문서에 직접 입력되는 콘텐츠
+> 
+> 이미지와 동영상, 오디오 콘텐츠는 외부에서 만들어지는 콘텐츠
+> 
+> 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입하는 형태. => 임베드(embed) 콘텐츠
+
+
 > # to be continued...

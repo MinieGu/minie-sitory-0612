@@ -302,6 +302,13 @@
 ```
   <article> <aside> <details> <figcaption> <figure> <footer> <header> <main> <mark> <nav> <section> <summary> <time>
 ```
-
+> > aside: 부차적인
+> >  
+> > article: 독립적인 요소
+> > 
+> > section: 문서의 섹션
+> >  
+> > article 과 section: 어디가 어디로 포함 관계가 되는지 상관 없음. 개발, 기획 단계에서 규칙을 정하면 됨.
+> > 
 
 > # to be continued...

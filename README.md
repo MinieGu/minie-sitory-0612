@@ -296,12 +296,12 @@
 > 
 > 의미요소
 >
-> > <form>, <table>
->
 > HTML5 이후로 구조를 표시하는 의미적 요소로 변경됨
 >
-> > <article> <aside> <details> <figcaption> <figure> <footer> <header> <main> <mark> <nav> <section> <summary> <time>
-
+> > 
+```
+  <article> <aside> <details> <figcaption> <figure> <footer> <header> <main> <mark> <nav> <section> <summary> <time>
+```
 
 
 > # to be continued...

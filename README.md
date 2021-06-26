@@ -297,10 +297,12 @@
 ### 시멘틱 요소
 
 > 비 의미적 요소
->
-> > div:
+> 
+> > Container Element(단순 영역 구분 요소)
+> >
+> > > div(Division/Divide):
 > > 
-> > span:
+> > > span:
 > 
 > 의미요소
 >

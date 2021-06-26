@@ -76,6 +76,14 @@
 
 6- 웹 문서의 콘텐츠 요소들이 담기는 영역 요소
 
+### HTML 페이지에서 표시하는 콘텐츠
+
+> 텍스트 콘텐츠
+> 멀티미디어 콘텐츠(임베디드 콘텐츠)
+> > 이미지
+> > 비디오
+> > 오디오
+
 
 ### HTML Fundamental Elements
 
@@ -318,5 +326,19 @@
 
 # HW
 > dbut.com 에 들어가서 맘에 드는 사이트, 페이지 선정. 영역 구분 분석 해보기
+
+## 구조
+
+*참고: 원페이지 [link](https://onepagelove.com/)
+
+> GNB(Global Navigation Bar): 원뎁스 메뉴(1depth menu)
+> LNB(Local Navigation Bar): 원뎁스 안의 로컬 페이지내의 메뉴
+> UTIL MENU(Utility Menu): 로그인등의 기능메뉴
+> 구조는 의미적 요소와 디자인 요소를 동시에 고려해야 한다
+
+*프리 템플릿 사이트 [link](https://freebiesbug.com/psd-freebies/website-template/)
+*온라인 포토샵 편집 사이트: photpea [link](https://www.photopea.com/)
+
+
 
 > # to be continued...

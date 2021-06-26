@@ -332,8 +332,11 @@
 *참고: 원페이지 [link](https://onepagelove.com/)
 
 > GNB(Global Navigation Bar): 원뎁스 메뉴(1depth menu)
+> 
 > LNB(Local Navigation Bar): 원뎁스 안의 로컬 페이지내의 메뉴
+> 
 > UTIL MENU(Utility Menu): 로그인등의 기능메뉴
+> 
 > 구조는 의미적 요소와 디자인 요소를 동시에 고려해야 한다
 
 *프리 템플릿 사이트 [link](https://freebiesbug.com/psd-freebies/website-template/)

@@ -339,7 +339,8 @@
 > 
 > 구조는 의미적 요소와 디자인 요소를 동시에 고려해야 한다
 
-*프리 템플릿 사이트 [link](https://freebiesbug.com/psd-freebies/website-template/)
+*프리 템플릿 사이트: freebiesbug [link](https://freebiesbug.com/psd-freebies/website-template/)
+
 *온라인 포토샵 편집 사이트: photpea [link](https://www.photopea.com/)
 
 

@@ -363,6 +363,10 @@
 ### Parent Element(부모요소), Child Element(자식요소)
 
 > 포함 관계에서 포함하는 요소가 부모요소, 보함되는 요소가 자식요소
+> 
+> 직계 포함 관계에서만 부모요소 자식요소라 이야기 함
+> 
+> 직계가 아닌 포함관계에서는 조상요소(Ancestor Elements), 자손요소(Descendant Element) 라고 함
 
 
 > # to be continued...

@@ -379,6 +379,35 @@
 > 
 > 여러 CSS 선언은 세미 콜론으로 구분하고 선언 블록은 중괄호로 묶습니다.
 
+### 작성 방법
+
+> External CSS: 파일을 분리하는 방식
+> 
+> Internal CSS: 같은HTML 문서내에 head 태그 영역에 style 태그를 사용하여 입력
+> 
+> Inline CSS: 시작태그에 style attribute를 사용해서 입력=> javascript에서 CSS를 제어할때 사용
+
+### naming할 때 표기 방식
+
+> id/class naming, 변수/함수 naming, 파일/폴더 naming
+> 
+> 표기 방식을 사용하는 이유
+> 
+> > naming 할 때 두 단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
+> > 
+> > 단어의 시작부분에 첫글자를 대문자로 변경하거나 특수기호를 사용
+> > 
+> 표기방식 종류
+> 
+> > snake case: gnb_depht1
+> > 
+> > kebab case: gnb-depth1
+> > 
+> > camel case: gnbDepth1
+> > 
+> > pascal case: GnbDepth1
+
+
 ### 구문(Syntax)
 
 ```

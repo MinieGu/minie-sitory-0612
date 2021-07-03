@@ -389,7 +389,7 @@
 
 ### naming할 때 표기 방식
 
-> id/class naming, 변수/함수 naming, 파일/폴더 naming
+> id/class naming, 변수/함수/클래스 naming, 파일/폴더 naming
 > 
 > 표기 방식을 사용하는 이유
 > 
@@ -399,13 +399,13 @@
 > > 
 > 표기방식 종류
 > 
-> > snake case: gnb_depht1
+> > snake case: gnb_depht1 => 파일/폴더
 > > 
-> > kebab case: gnb-depth1
+> > kebab case: gnb-depth1 => id/class
 > > 
-> > camel case: gnbDepth1
+> > camel case: gnbDepth1 => javascript의 변수/함수
 > > 
-> > pascal case: GnbDepth1
+> > pascal case: GnbDepth1 => javascript의 클래스
 
 
 ### 구문(Syntax)

@@ -386,7 +386,9 @@ h1{color:blue; font-size:12px;}
 
 
 *강사님 페이지
-코드펜 link[https://codepen.io/ministori-yonsei]
-깃 link[https://github.com/ministori-yonsei/green_weekend_06]
+
+코드펜 [link](https://codepen.io/ministori-yonsei)
+
+깃 [link](https://github.com/ministori-yonsei/green_weekend_06)
 
 > # to be continued...

@@ -360,6 +360,9 @@
 > > 
 > > inline elment는 위, 아래 여백을 적용할 수 없음
 
+### Parent Element(부모요소), Child Element(자식요소)
+
+> 포함 관계에서 포함하는 요소가 부모요소, 보함되는 요소가 자식요소
 
 
 > # to be continued...

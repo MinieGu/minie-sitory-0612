@@ -369,4 +369,24 @@
 > 직계가 아닌 포함관계에서는 조상요소(Ancestor Elements), 자손요소(Descendant Element) 라고 함
 
 
+##CSS
+
+### 구문(Syntax)
+
+```
+h1{color:blue; font-size:12px;}
+```
+> [Selector] [Declaration Block]
+> Selector {[declaration]; [declaration];}
+> Selector { [Property]: [Value]; [Property]: [Value];}
+> 
+> 선택자(Selector):
+> 
+> 선언(Declaration):
+
+
+*강사님 페이지
+코드펜 link[https://codepen.io/ministori-yonsei]
+깃 link[https://github.com/ministori-yonsei/green_weekend_06]
+
 > # to be continued...

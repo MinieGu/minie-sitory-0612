@@ -495,7 +495,7 @@ color:rgba(42, 189, 81, 0.5);
 > 
 > letter-spacing(자간): px 
 > 
-> line-height(행간): px / 숫자(ex-0.8or1.8)
+> line-height(행간): px / 배수(0.8 1.6 등등)
 > 
 > word-spacing:
 > 
@@ -522,6 +522,18 @@ color:rgba(42, 189, 81, 0.5);
 > font-weight: bold / 500
 > 
 > > 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
+
+### Box Model
+
+> 구성요소
+> 
+> > width/height: 너비/높이
+> > 
+> > padding: 안쪽 여백
+> > 
+> > border: 테두리
+> > 
+> > margin: 바깥 여백
 
 
 *강사님 페이지

@@ -465,8 +465,63 @@ h1{color:blue; font-size:12px;}
 > > 16진수(hex code) : #AABA01
 > > 
 > > 10진수 : (255, 255, 255)
+>
+> CSS 사용법
+> 
+```
+color:#2abd51;
+color:rgb(42, 189, 81);
+color:rgba(42, 189, 81, 0.5);
+```
+>
+> 투명도를 의미하는 용어
+> > transparent : 투명한
+> > alpha : 추가 채널
+> > opacity : 불투명도
 
+### text CSS
 
+> color: color name
+> 
+> text-align: center / left / right / justify
+> 
+> vertical-align: baseline / text-top / text-bottom / sub / super
+> 
+> test-decoration: overline / line-through / underline / none
+> 
+> text-transform: uppercase / lowercase / capitalize
+> 
+> text-indent(들여쓰기): px
+> 
+> letter-spacing(자간): px 
+> 
+> line-height(행간): px / 숫자(ex-0.8or1.8)
+> 
+> word-spacing:
+> 
+> white-space: nowarp
+> 
+> text-shadow: 가로 세로 색상 블러
+
+### font CSS
+
+> font-family: "Times New Roman", Times, serif;
+> 
+> > 순서대로 대체 폰트를 찾음
+> > 
+> > sans-serif, serif, monospace, cursive, fantasy 5개의 기본 폰트는 font-family사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+> > 
+> 웹사이트에서 사용하는 폰트는 웹폰트(서버에 폰트 파일을 저장해서 사용)로 하용하는 데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+> 
+> > 대표적인 웹폰트 서비스: 구글 폰트, 눈누
+> 
+> font-size:
+> 
+> font-style: italic
+> 
+> font-weight: bold / 500
+> 
+> > 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
 
 
 *강사님 페이지

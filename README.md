@@ -18,6 +18,7 @@
 > tag : 태그 - 기술적
 > 
 > 문법(Syntax)
+> 
 > > <>로 감싸줌
 > > 
 > > 소문자로만 사용
@@ -42,11 +43,13 @@
 ### HTML Attribute
 
 > Attribute : 자질, 속성
+> 
 > > * 참고- CSS는 Property
 > 
 > HTML 요소의 부가 정보
 > 
 > 문법
+> 
 > > 속성이름 = "속성값"
 ```
 <a href="http://www.naver.com">naver</a>
@@ -83,9 +86,13 @@
 ### HTML 페이지에서 표시하는 콘텐츠
 
 > 텍스트 콘텐츠
+> 
 > 멀티미디어 콘텐츠(임베디드 콘텐츠)
+> 
 > > 이미지
+> > 
 > > 비디오
+> > 
 > > 오디오
 
 
@@ -150,12 +157,19 @@
 </ol>
 ```
 > 포함관계(nested)로 구성된 목록
+> 
 > 코딩 할때 밖에서 안쪽 방향 순서로!
+> 
 > > - html
+> > 
 > >   - html4
+> >   
 > >   - html5
+> >   
 > > - css
+> > 
 > >   - css2
+> >   
 > >   - css3
 ```
 <ul>
@@ -186,10 +200,15 @@
 
 ```
 > ***
+> 
 > * advanced text formatting
+> 
 >   - 있다는 것만 알기
+>   
 >   - 모질라 [link](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
+>   
 > ***
+> 
 
 
 #### Hyperlink
@@ -209,6 +228,7 @@
 <a href="http://www.naver.com">네이버로 이동</a>
 ```
 > bookmarks
+> 
 > >외부페이지 연결이 아닌 같은 페이지에서 특정 위치로 이동할 수 있게 해주는 기능
 > >
 > >도착 지점에 id attribute를 사용하여 이름을 지정
@@ -679,10 +699,12 @@ CSS
 div{
   display:inline;
 }
-=> div : inline 속성으로 화면에 표시
+=> 원래 block 속성인 div를 inline 속성으로 화면에 표시
 ```
 
-> inline-block : inline의 속성(한줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시
+> inline-block: inline의 속성(한줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시
+>
+> none: 주로 자바스크립트와 함께 활용되며 숨기고 나타낼때 사용
 
 
 ### 이미지 표현 방법
@@ -745,6 +767,112 @@ div{
 background:#fff;
 background:url(image.jpg);
 ```
+
+### position
+
+> 엘리먼트들의 위치를 지정
+> 
+> > relative: 인라인에서 위치를 차지하며 그 위치에서 지정한 간격을 띄워 나타남.
+> > 
+> > absolute: 화면 전체를 두고 지정한 위치에 나타남
+```
+html
+  <div class="absolute">This div element has position: absolute; 123</div>
+  <div class="relative">This div element has position: relative;
+    <div class="absolute">This div element has position: absolute; 456</div>
+  </div>
+
+css
+  div.relative {
+    position: relative;
+    width: 400px;
+    border: 3px solid #73AD21;
+    top: 20px;
+    left: 50px;
+  } 
+
+  div.absolute {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    background: rgba(0, 128, 0, 0.3);
+  }
+
+```
+
+### Pseudo
+
+> class
+> 
+> > 문법(Syntax): ':' 를 사용
+> > 
+```
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+/* tooltip */
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+
+```
+> > 종류
+> > 
+> > > :first-child - 첫 자식요소에만 적용
+> > > 
+> > > :first-of-type - 첫 요소에만 적용
+> > > 
+> > > ::nth-of-type(n) - n에 입력한 순번에만 적용
+>
+> 
+> element
+> 
+> > 문법(Syntax): '::' 를 사용
+> > 
+```
+h1::after {
+  content: url(smiley.gif);
+}
+```
+> > 종류
+> > 
+> > > ::after - 앞에 적용
+> > > 
+> > > ::before - 뒤에 적용
+> > > 
+> > > ::first-letter - 첫 글자에 적용
+> > > 
+> > > ::firet-line - 첫 줄에 적용
+> > > 
+> > > ::marker - ul, li 등 리스트에 적용 
+> > > 
+> > > ::selection - 드래그시 적용
+> > > 
 
 *강사님 페이지
 

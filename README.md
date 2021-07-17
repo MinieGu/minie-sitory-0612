@@ -599,23 +599,15 @@ color:rgba(42, 189, 81, 0.5);
 
 ### margin
 
->안쪽 여백
+>바깥쪽 여백
 >
->margin-top:
+>padding과 사용법이 같음
 >
->margin-right:
->
->margin-bottom:
->
->margin-left:
->
->margin: 10px 20px 30px 40px(top right bottom left)
->
->margin: 10px 20px 30px(top right/left bottom left)
->
->margin: 10px 20px (top/bottom right/left)
->
->margin: 10px (top/right/bottom/left)
+>margin collapse: 위 요소의 margin-bottom과 아래 요소에 margin-top이 중첩될경우 둘중 숫자가 큰 마진만 적용된다.
+
+### border
+
+
 
 
 

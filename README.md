@@ -540,10 +540,14 @@ color:rgba(42, 189, 81, 0.5);
 
 ### width/height
 > width:
+> 
 > height:
+> 
 > auto:
+> 
 > > block:
-> > inline: 너비/높이 
+> > 
+> > inline: 너비/높이가 콘텐츠(자식요소)에 맞춰짐
 
 
 *강사님 페이지

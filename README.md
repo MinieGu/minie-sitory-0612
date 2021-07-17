@@ -1,5 +1,7 @@
 # HTML, CSS, JS basic
 
+
+
 ## HTML
 
 > HTML:Hyper Text Markup Language - 마크업(표시) 언어
@@ -7,6 +9,7 @@
 > 웹페이지의 구조를 표시
 > 
 > 웹페이지의 콘텐츠를 표시
+
 
 ### HTML Element
 
@@ -49,6 +52,7 @@
 <a href="http://www.naver.com">naver</a>
 ```
 
+
 ### Anatomy of an HTML document
 
 ```
@@ -85,7 +89,9 @@
 > > 오디오
 
 
+
 ### HTML Fundamental Elements
+
 
 #### header tag(제목 태그)
 
@@ -239,6 +245,7 @@
 <img src="image.jpg" alt="대체 텍스트">
 ```
 
+
 ### Video Element
 
 > 비디오 및 오디오 콘텐츠는 용량이 크기 때문에 서버에 저장을 해서 콘텐츠를 제공하면 많은 트래픽이 발생할 수 있음.
@@ -260,6 +267,7 @@
   <source src ="url주소" type="video/mp4">
 </video>
 ```
+
 
 ### Youtube
 
@@ -290,9 +298,11 @@
 > 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입하는 형태. => 임베드(embed) 콘텐츠
 
 
+
 ## HTML Content Model
 
 > 카테고리 [link](https://codepen.io/MinieGu/pen/jOBJjgx)
+
 
 ### 시멘틱 요소
 
@@ -326,8 +336,10 @@
 > > 
 > > main: 헤더, 네비, 푸터를 제외한 영역
 
+
 # HW
 > dbut.com 에 들어가서 맘에 드는 사이트, 페이지 선정. 영역 구분 분석 해보기
+
 
 ## 구조
 
@@ -345,6 +357,7 @@
 
 *온라인 포토샵 편집 사이트: photpea [link](https://www.photopea.com/)
 
+
 ### Block, Inline
 
 > 모든 element는 각각의 고유 영역을 가지고 있음
@@ -360,6 +373,7 @@
 > > 
 > > inline elment는 위, 아래 여백을 적용할 수 없음
 
+
 ### Parent Element(부모요소), Child Element(자식요소)
 
 > 포함 관계에서 포함하는 요소가 부모요소, 보함되는 요소가 자식요소
@@ -369,7 +383,9 @@
 > 직계가 아닌 포함관계에서는 조상요소(Ancestor Elements), 자손요소(Descendant Element) 라고 함
 
 
+
 ##CSS
+
 
 ### 기본 개념
 
@@ -379,6 +395,7 @@
 > 
 > 여러 CSS 선언은 세미 콜론으로 구분하고 선언 블록은 중괄호로 묶습니다.
 
+
 ### 작성 방법
 
 > External CSS: 파일을 분리하는 방식
@@ -386,6 +403,7 @@
 > Internal CSS: 같은HTML 문서내에 head 태그 영역에 style 태그를 사용하여 입력
 > 
 > Inline CSS: 시작태그에 style attribute를 사용해서 입력=> javascript에서 CSS를 제어할때 사용
+
 
 ### naming할 때 표기 방식
 
@@ -407,11 +425,13 @@
 > > 
 > > pascal case: GnbDepth1 => javascript의 클래스
 
+
 ### OOCSS(Object Oriented CSS)
 
 > HTML Element를 대상화 시키는 과정에서 Element 하나하나를 모두 객체화 시키는 이론
 >
 > HTML Element 모두 각각 id, class attribute를 사용해서 이름을 지정해줌 
+
 
 ### 구문(Syntax)
 
@@ -425,6 +445,7 @@ h1{color:blue; font-size:12px;}
 > 선택자(Selector):
 > 
 > 선언(Declaration):
+
 
 ### id, class
 
@@ -482,6 +503,7 @@ color:rgba(42, 189, 81, 0.5);
 > > 
 > > opacity : 불투명도
 
+
 ### text CSS
 
 > color: color name
@@ -506,6 +528,7 @@ color:rgba(42, 189, 81, 0.5);
 > 
 > text-shadow: 가로 세로 색상 블러
 
+
 ### font CSS
 
 > font-family: "Times New Roman", Times, serif;
@@ -526,6 +549,7 @@ color:rgba(42, 189, 81, 0.5);
 > 
 > > 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
 
+
 ### Box Model
 
 > 구성요소
@@ -538,16 +562,61 @@ color:rgba(42, 189, 81, 0.5);
 > > 
 > > margin: 바깥 여백
 
+
 ### width/height
-> width:
+
+> width: 너비/가로길이
 > 
-> height:
+> height: 높이/세로길이
 > 
 > auto:
 > 
 > > block:
 > > 
 > > inline: 너비/높이가 콘텐츠(자식요소)에 맞춰짐
+
+
+### padding
+
+>안쪽 여백
+>
+>padding-top:
+>
+>padding-right:
+>
+>padding-bottom:
+>
+>padding-left:
+>
+>padding: 10px 20px 30px 40px(top right bottom left)
+>
+>padding: 10px 20px 30px(top right/left bottom left)
+>
+>padding: 10px 20px (top/bottom right/left)
+>
+>padding: 10px (top/right/bottom/left)
+
+
+### margin
+
+>안쪽 여백
+>
+>margin-top:
+>
+>margin-right:
+>
+>margin-bottom:
+>
+>margin-left:
+>
+>margin: 10px 20px 30px 40px(top right bottom left)
+>
+>margin: 10px 20px 30px(top right/left bottom left)
+>
+>margin: 10px 20px (top/bottom right/left)
+>
+>margin: 10px (top/right/bottom/left)
+
 
 
 *강사님 페이지

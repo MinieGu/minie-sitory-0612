@@ -590,7 +590,7 @@ color:rgba(42, 189, 81, 0.5);
 >
 >padding: 10px 20px 30px 40px(top right bottom left)
 >
->padding: 10px 20px 30px(top right/left bottom left)
+>padding: 10px 20px 30px(top right/left bottom)
 >
 >padding: 10px 20px (top/bottom right/left)
 >
@@ -605,7 +605,23 @@ color:rgba(42, 189, 81, 0.5);
 >
 >margin collapse: 위 요소의 margin-bottom과 아래 요소에 margin-top이 중첩될경우 둘중 숫자가 큰 마진만 적용된다.
 
+
 ### border
+
+
+### 가로배치
+
+
+### float
+
+
+### display 속성
+
+
+### form 요소
+
+> 웹페이지에서 사용자 입력을 받을 사용하는 요소
+
 
 
 

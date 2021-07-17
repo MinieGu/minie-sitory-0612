@@ -538,6 +538,13 @@ color:rgba(42, 189, 81, 0.5);
 > > 
 > > margin: 바깥 여백
 
+### width/height
+> width:
+> height:
+> auto:
+> > block:
+> > inline: 너비/높이 
+
 
 *강사님 페이지
 

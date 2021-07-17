@@ -689,6 +689,16 @@ div{
 ```
 
 
+### 이미지 표현 방법
+
+> 콘텐츠로 표현
+> > img tag
+> 디자인 요소로 표현
+> > backgroun-image
+> ID(Image Replacement: 이미지 대체) 기법
+> > HTML Element에는 텍스트로 표시
+> > 화면(브라우저)에 표시할때는 이미지로 표현
+
 
 
 *강사님 페이지

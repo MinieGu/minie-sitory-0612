@@ -298,11 +298,23 @@
 > 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입하는 형태. => 임베드(embed) 콘텐츠
 
 
+### form 요소
+
+> 웹페이지에서 사용자 입력을 받을 사용하는 요소
+
+```
+<input type="text"> : 일반 텍스트
+<input type="password"> : 비밀번호
+
+<input type="button" value="확인">
+<button type="button">확인</button>
+
+```
 
 ## HTML Content Model
 
-> 카테고리 [link](https://codepen.io/MinieGu/pen/jOBJjgx)
 
+> 카테고리 [link](https://codepen.io/MinieGu/pen/jOBJjgx)
 
 ### 시멘틱 요소
 
@@ -335,10 +347,6 @@
 > > figcaption(이미지 캡션) / figure(이미지): 다이어그램, 이미지를 감싸주는 영역
 > > 
 > > main: 헤더, 네비, 푸터를 제외한 영역
-
-
-# HW
-> dbut.com 에 들어가서 맘에 드는 사이트, 페이지 선정. 영역 구분 분석 해보기
 
 
 ## 구조
@@ -604,7 +612,9 @@ color:rgba(42, 189, 81, 0.5);
 >padding과 사용법이 같음
 >
 >margin collapse
+>
 > > 위 요소의 margin-bottom과 아래 요소에 margin-top이 중첩될경우 둘중 숫자가 큰 마진만 적용된다.
+> > 
 > > 위아래 양쪽으로 margin을 적용하는 것보다 한쪽을 기준으로 적용하는 것이 더 좋음
 
 
@@ -632,7 +642,7 @@ color:rgba(42, 189, 81, 0.5);
 > >
 > > grid
 
-### float
+#### float
 
 > left, right 값을 사용해서 가로 배치 left, right는 부모요소를 기준으로 방향성을 표현
 > 
@@ -675,31 +685,66 @@ div{
 > inline-block : inline의 속성(한줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시
 
 
-### form 요소
-
-> 웹페이지에서 사용자 입력을 받을 사용하는 요소
-
-```
-<input type="text"> : 일반 텍스트
-<input type="password"> : 비밀번호
-
-<input type="button" value="확인">
-<button type="button">확인</button>
-
-```
-
-
 ### 이미지 표현 방법
 
 > 콘텐츠로 표현
+> 
 > > img tag
+>  
 > 디자인 요소로 표현
+> 
 > > backgroun-image
+> 
 > ID(Image Replacement: 이미지 대체) 기법
+> 
 > > HTML Element에는 텍스트로 표시
+> > 
 > > 화면(브라우저)에 표시할때는 이미지로 표현
+```
+html
+  <a href="" class="facebook">facebook</a>
+  
+css
+  .facebook{
+    display: block;
+    text-indent: -99999px;
+    width: 8px;
+    height: 14px;
+    background: url(url주소);
+  }
+```
 
 
+### background
+
+> background-color
+> 
+> background-image
+> 
+> background-repeat
+> 
+> > repeat-x(가로만 반복) / repeat-y(세로만 반복) / no-repeat(반복없음)
+> > 
+> bcakground-position
+> 
+> > left, center, right / top, center, bottom : 키워드
+> > 
+> > px 좌표 표시
+```
+div{
+  background-position:left top;(앞:가로방향/뒤:세로방향)
+  background-position:100px 200px;(앞:가로방향/뒤:세로방향)
+}
+```
+> background-attachment
+> 
+> > 배경 이미지를 고정
+> 
+> background 축약 표현
+```
+background:#fff;
+background:url(image.jpg);
+```
 
 *강사님 페이지
 

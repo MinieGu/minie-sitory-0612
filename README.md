@@ -876,15 +876,103 @@ h1::after {
 > > > ::selection - 드래그시 적용
 
 
-### Flaxbox
+### Flexbox
 
-> 감싸고있는 디브에 flex-container를 적용
+> Parent Element(Container)
+> 
+> > Properties
+> > 
+> > > flex-direction: column; column-reverse; row; row-reverse;
+> > > 
+> > > flex-wrap: wrap; nowrap; wrap-reverse;
+> > > 
+> > > flex-flow: row wrap; 
+> > > 
+> > > justify-content: 넓이 - center;붙어서 가운데 / flex-start;부모의 왼쪽 끝 / flex-end;부모의 오른쪽 끝 / space-around;양쪽으로 패딩 / space-between;간격에 패딩
+> > > 
+> > > align-items: 높이 - center; flex-start; flex-end; stretch; baseline;
+> > > 
+> > > align-content: space-between; space-around; stretch; center; flex-start; flex-end;
+> > > 
+> > > perfect centering
+```
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+```
+> * 참고
 > 
 > float right: 순서도 오른쪽 부터
 > 
 > flex-end: 순서 그대로 부모요소의 오른쪽 끝에 붙음
+>
+> Child Elements (Items)
+> 
+> > Properties
+> > 
+> > > order: 숫자로 순서 값
+> > > 
+> > > flex-grow: 도합 10 숫자로 비율대로 늘어남
+> > > 
+> > > flex-shrink: 0을 입력하면 그 자식만 줄어들지 않음
+> > > 
+> > > flex-basis: 해당 픽셀 값까지만 늘어나고 더이상 늘지 않음
+> > > 
+> > > flex: not growable (0), not shrinkable (0), 해당 픽셀값
+```
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex: 0 0 200px">3</div>
+  <div>4</div>
+</div>
+```
+> > > 
+> > > align-self: flex-start/flex-end/center
+> > > 
+>  반응형 예시
+> >
+```
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 
+///
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+```
+> 
+> Flex Gallery [link](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery)
 
 
 ## 반응형 웹
@@ -927,6 +1015,10 @@ h1::after {
 
 > mydevice.io
 > 
+
+
+## JS
+
 
 
 *강사님 페이지

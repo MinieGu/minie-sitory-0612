@@ -975,16 +975,19 @@ h1::after {
 > Flex Gallery [link](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery)
 
 
+
 ## 반응형 웹
 
-> OSMU(One Source Multi Use)
-> 
+
+### OSMU(One Source Multi Use)
+
 > > One Source: HTML
 > > 
 > > Multi Use: CSS, Javascript
-> 
-> 변경점(break point)
-> 
+
+
+### 변경점(break point)
+
 > > 기준 해상도를 설정하고 범위 구간으로 설정
 > 
 > @media
@@ -1004,7 +1007,7 @@ h1::after {
   /* PC CSS */
 }
 
-// 포함된 구간을 설정
+// 포함된 구간을 설정 <- 웹/모바일 css를 그대로 활용할 수 있음으로 선호 
 
 /* PC CSS */
 
@@ -1013,7 +1016,16 @@ h1::after {
 }
 ```
 
-> mydevice.io
+### 뷰포트
+
+> 뷰포트를 메타 테그에 포함시켜야 한다.
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+
+
+> 본인 해상도 및 뷰포트 확인 사이트 [link](mydevice.io)
 > 
 
 

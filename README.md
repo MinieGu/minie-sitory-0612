@@ -768,6 +768,7 @@ background:#fff;
 background:url(image.jpg);
 ```
 
+
 ### position
 
 > 엘리먼트들의 위치를 지정
@@ -803,7 +804,8 @@ css
 
 ```
 
-### Pseudo
+
+### Pseudo(수도 클래스)
 
 > class
 > 
@@ -872,7 +874,60 @@ h1::after {
 > > > ::marker - ul, li 등 리스트에 적용 
 > > > 
 > > > ::selection - 드래그시 적용
-> > > 
+
+
+### Flaxbox
+
+> 감싸고있는 디브에 flex-container를 적용
+> 
+> float right: 순서도 오른쪽 부터
+> 
+> flex-end: 순서 그대로 부모요소의 오른쪽 끝에 붙음
+
+
+
+
+## 반응형 웹
+
+> OSMU(One Source Multi Use)
+> 
+> > One Source: HTML
+> > 
+> > Multi Use: CSS, Javascript
+> 
+> 변경점(break point)
+> 
+> > 기준 해상도를 설정하고 범위 구간으로 설정
+> 
+> @media
+```
+@media 디바이스 and (구간 해상도){
+  디바이스 스타일
+}
+
+@media screen and (max-width:300px){}
+@media screen and (min-width:300px){}
+
+// 독립된 구간으로 설정
+@media screen and (min-width:360px) and (max-width:700px){
+  /* 스마트 폰 CSS */
+}
+@media screen and (min-width:701px) and (max-width:1920px){
+  /* PC CSS */
+}
+
+// 포함된 구간을 설정
+
+/* PC CSS */
+
+@media screen and (max-width:700px){
+  /* 스마트폰 CSS */
+}
+```
+
+> mydevice.io
+> 
+
 
 *강사님 페이지
 

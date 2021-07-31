@@ -1060,10 +1060,14 @@ h1::after {
 
 visual studio
 
+
+
 *강사님 페이지
 
 코드펜 [link](https://codepen.io/ministori-yonsei)
 
 깃 [link](https://github.com/ministori-yonsei/green_weekend_06)
+
+갤러리 433.co.kr
 
 > # to be continued...

@@ -1068,6 +1068,16 @@ visual studio
 
 깃 [link](https://github.com/ministori-yonsei/green_weekend_06)
 
+메일 ministori@naver.com
+
+https://www.dothome.co.kr/
+
+https://openweathermap.org/
+
+open api
+
+https://jsonformatter.curiousconcept.com/
+
 갤러리 433.co.kr
 
 > # to be continued...
